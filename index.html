@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+BULLZ SPORTS CLUB
+</title>
+<link rel="icon" href="./images/icon.jpg">
+<style>
+.header 
+{
+  overflow:hidden;
+  background-image:url('h1.jpg');
+  border: 3px solid black;
+  background-color:#e6ffe6;
+  border-radius:10px 25px;
+  font-family:broadway;
+}
+.glow 
+{
+  font-size: 40px;
+  color:#003300;
+  text-align: left;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.navbar 
+{
+  overflow:hidden;
+  border: 3px solid black;
+  border-radius:25px;
+  background-color:#e6ffe6;
+  padding-bottom: 5px;
+  padding-right:30px;
+  padding-top:3px;
+}
+.navbar > a 
+{
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+}
+.navbar a.right 
+{
+  float: right;
+}
+.navbar a:hover 
+{
+  background-color: #66ff33;
+  color: white;
+}
+marquee 
+{
+  text-shadow: 2px 2px 5px red;
+}
+.box
+{
+	background-color:#e6ffe6;
+	border:3px solid black;
+	width:auto;
+	height:auto;
+	padding-bottom:10px;
+}
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 75%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next 
+{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.caption-container 
+{
+  text-align: center;
+  width:95%;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover 
+{
+  background-color: rgba(0, 0, 0, 0.8);
+  color:white;
+}
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column 
+{
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo 
+{
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.grid-container 1
+{
+	display:grid;
+	grid-template-columns:100%;
+	background-color:#e6ffe6;
+	padding:10px; 
+}
+.box1
+{
+	display: grid;
+    grid-template-columns: 18% auto;
+	border:3px solid black;
+	width:auto;
+	height:580px;
+	background-color:#e6ffe6;
+	padding:10px;
+}
+.inbox1
+{
+	border:2px solid black;
+	background-color:#ccffcc;
+	width:240px;
+	height:550px;
+	padding:10px;
+	padding-right:0px;
+}
+.inbox2
+{
+	border:2px solid black;
+	width:auto;
+	height:550px;
+	background-image:url('./images/back1.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+	opacity:0.5;
+	padding:10px;
+}
+.navbar1
+{
+	width:95%;
+	height:35px;
+	background-color: #0d1a00;
+	text-align:center;
+	padding-top:15px;
+	padding-bottom:10px;
+	font-size:25px;
+	color:white;
+}
+p:hover
+{
+	background-color: #b3b3b3;
+}
+div.ex1 
+{
+  background-image: url('./images/ex1.jpg'); background-repeat: no-repeat;background-attachment: fixed; background-size: 100% 100%;
+  width: auto;
+  height: 570px;
+  overflow: scroll;
+}
+</style>
+</head>
+<body style="background-image:url('./images/back2.jpg');  background-repeat: no-repeat; background-attachment: fixed;background-size: cover;" >
+    <div class="header" style="text-align:centre; padding-left:35%">
+		<h1 class= "glow" >  <strong> BULLZ SPORTS CLUB </strong> </h1>
+	</div> </br>
+	<div class="navbar">
+		<img src="./images/icon.jpg" style="width:70px;height:60px;padding-top:6px;padding-left:5px;border-radius:50%" > 
+		<a href="./contact%20us.html" target="_blank" class="right"> <strong> CONTACT US </strong> </a>
+		<a href="./subscription1.html" target="_blank" class="right"> <strong> SUBSCRIPTION </strong> </a>
+		<a href="./spors.html" target="_blank" class="right"> <strong> SPORTS </strong> </a>
+		<a href="https://en.wikipedia.org/wiki/Sports_club" target="_blank" class="right"> <strong> ABOUT </strong> </a>
+	</div> </br>
+	<marquee  style="font-family:times new roman" behavior="scroll" direction="left" scrollamount="10"><h1 style="color:black"> <>go to sports for knowing about our upcoming tournaments<><><b>NOTE:</b> if u want join in our tournaments please contact us( from homepage at top right side)</h1>
+	</marquee>
+	</br> </br>
+	<div class="box">
+			<div class="mySlides">
+				<img src="./images/volleyball.jpg" style="width:93%;height:500px;padding-left:50px;padding-top:10px;padding-bottom:10px;">
+			</div>
+			<div class="mySlides">
+				<img src="./images/cricket.jpg" style="width:93%;height:500px;padding-left:50px;padding-top:10px;padding-bottom:10px;">
+			</div>
+				
+			<div class="mySlides">
+				<img src="./images/badminton.jpg" style="width:93%;height:500px;padding-left:50px;padding-top:10px;padding-bottom:10px;">
+			</div>
+			<div class="mySlides">
+				<img src="./images/football.jpg" style="width:93%;height:500px;padding-left:50px;padding-top:10px;padding-bottom:10px;">
+			</div>		
+			<div class="mySlides">
+				<img src="./images/tennis.jpg" style="width:93%;height:500px;padding-left:50px;padding-top:10px;padding-bottom:10px;">
+			</div>		
+			<div class="mySlides">
+				<img src="./images/basketball.jpg" style="width:93%;height:500px;padding-left:50px;padding-top:10px;padding-bottom:10px;">
+		    </div>
+		
+		</br>
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+			<a class="next" onclick="plusSlides(1)">❯</a>			
+			<div class="caption-container" style="margin-left:20px;">
+				<p id="caption"></p>
+			</div>
+				
+			</br>
+			</br>
+			<div class="row">
+				<div class="column">
+					<img class="demo cursor" src="./images/volleyball.jpg" style="width:200px;height:200px;padding-left:30px; border-radius:20px ;" onclick="currentSlide(1)" alt="<strong> VOLLEYBALL </strong>">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="./images/cricket.jpg" style="width:200px;height:200px;padding-left:20px; border-radius:20px ;" onclick="currentSlide(2)" alt="<strong> CRICKET </strong>">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="./images/badminton.jpg" style="width:200px;height:200px;padding-left:20px; border-radius:20px ;" onclick="currentSlide(3)" alt="<strong> BADMINTON</strong>">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="./images/football.jpg" style="width:200px;height:200px;padding-left:20px; border-radius:20px ;" onclick="currentSlide(4)" alt="<strong> FOOTBALL</strong>">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="./images/tennis.jpg" style="width:200px;height:200px;padding-left:20px;border-radius:20px ;" onclick="currentSlide(5)" alt="<strong> TENNIS </strong>">
+				</div>    
+				<div class="column">
+					<img class="demo cursor" src="./images/basketball.jpg" style="width:200px;height:200px;padding-left:20px;border-radius:20px ;" onclick="currentSlide(6)" alt="<strong> BASKETBALL</strong>">
+				</div>
+			</div>
+		
+	</div>
+	</br>
+	<div class="grid-container 1">
+		<div class="box1">
+			<div class="inbox1" >
+				<div class="navbar1" >
+					<strong> CLUB </strong> 
+					<p style="color:black;"> VOLLEYBALL </p> <hr>
+					<p style="color:black;"> CRICKET </p> <hr>
+					<p style="color:black;"> BADMINTON </p> <hr>
+					<p style="color:black;"> FOOTBALL </p> <hr>
+					<p style="color:black;"> TENNIS </p> <hr>
+					<p style="color:black;"> BASKETBALL </P> <hr>
+				</div>
+			</div>
+			<div class="ex1" >
+				<h1> <u> VOLLEYBALL </u></h1>
+				<pre style="font-family:times new roman; font-size:20px;">     <b>VOLLEYBALL</b> is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules. It has been a part of the official program of the Summer Olympic Games since Tokyo 1964.
+ The complete set of rules is extensive, but play essentially proceeds as follows: a player on one of the teams begins a 'rally' by serving the ball (tossing or releasing it and then hitting it with a hand or arm), from behind the back boundary line of the court, over the net, and into the receiving team's court. The receiving team must not let the ball be grounded within their court. The team may touch the ball up to 3 times, but individual players may not touch the ball twice consecutively.[3] Typically, the first two touches are used to set up for an attack, an attempt to direct the ball back over the net in such a way that the serving team is unable to prevent it from being grounded in their court.
+
+ The rally continues, with each team allowed as many as three consecutive touches, until either </br>(1): a team makes a kill, grounding the ball on the opponent's court and winning the rally; or </br>(2): a team commits a fault and loses the rally. </br>
+ The team that wins the rally is awarded a point and serves the ball to start the next rally.
+ A few of the most common faults include:
+ ->causing the ball to touch the ground or floor outside the opponents' court or 
+ ->without first passing over the net;
+ ->catching and throwing the ball;
+ ->double hit: two consecutive contacts with the ball made by the same player;
+ ->four consecutive contacts with the ball made by the same team;
+ ->net foul: touching the net during play;
+ ->foot fault: the foot crosses over the boundary line when serving.
+
+ The ball is usually played with the hands or arms, but players can legally strike or push (short contact) the ball with any part of the body.
+ A number of consistent techniques have evolved in volleyball, including spiking and blocking (because these plays are made above the top of the net, the vertical jump is an athletic skill emphasized in the sport) as well as passing, setting, and specialized player positions and offensive and defensive structures.</pre>
+			</br>
+			<a href="https://en.wikipedia.org/wiki/Volleyball" target="_blank">click here to know further information about VOLLEYBALL!</a>
+			</br>
+			<hr>
+			<h1> <u> CRICKET </u> </h1>
+			<pre style="font-family:times new roman; font-size:20px;">     <b>CRICKET</b> is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 22-yard (20-metre) pitch with a wicket at each end, each comprising two bails balanced on three stumps. 
+ The batting side scores runs by striking the ball bowled at the wicket with the bat (and running between the wickets), while the bowling and fielding side tries to prevent this (by preventing the ball from leaving the field, and getting the ball to either wicket) and dismiss each batter (so they are "out"). 
+ Means of dismissal include being bowled, when the ball hits the stumps and dislodges the bails, and by the fielding side either catching the ball after it is hit by the bat and before it hits the ground, or hitting a wicket with the ball before a batter can cross the crease in front of the wicket. When ten batters have been dismissed, the innings ends and the teams swap roles. The game is adjudicated by two umpires, aided by a third umpire and match referee in international matches. 
+ They communicate with two off-field scorers who record the match's statistical information.
+
+ Forms of cricket range from Twenty20, with each team batting for a single innings of 20 overs, to Test matches played over five days. 
+ Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. 
+ In addition to the basic kit, some players wear protective gear to prevent injury caused by the ball, which is a hard, solid spheroid made of compressed leather with a slightly raised sewn seam enclosing a cork core layered with tightly wound string.
+
+ The earliest reference to cricket is in South East England in the mid-16th century. It spread globally with the expansion of the British Empire, with the first international matches in the second half of the 19th century. The game's governing body is the International Cricket Council (ICC), which has over 100 members, twelve of which are full members who play Test matches. 
+ The game's rules, the Laws of Cricket, are maintained by Marylebone Cricket Club (MCC) in London. The sport is followed primarily in the Indian subcontinent, Australasia, the United Kingdom, southern Africa and the West Indies.[1] Women's cricket, which is organised and played separately, has also achieved international standard. 
+ The most successful side playing international cricket is Australia, which has won seven One Day International trophies, including five World Cups, more than any other country and has been the top-rated Test side more than any other country.</pre>
+ </br>
+ <a href="https://en.wikipedia.org/wiki/Cricket" target="_blank">click here to know further information about CRICKET!</a>
+            </br>
+			<hr>
+			<h1> <u> BADMINTON </u> </h1>
+			<pre style="font-family:times new roman; font-size:20px;" >     <b>BADMINTON</b> is a racquet sport played using racquets to hit a shuttlecock across a net. Although it may be played with larger teams, the most common forms of the game are "singles" (with one player per side) and "doubles" (with two players per side). 
+ Badminton is often played as a casual outdoor activity in a yard or on a beach; formal games are played on a rectangular indoor court. 
+ Points are scored by striking the shuttlecock with the racquet and landing it within the opposing side's half of the court.
+
+Each side may only strike the shuttlecock once before it passes over the net. 
+Play ends once the shuttlecock has struck the floor or if a fault has been called by the umpire, service judge, or (in their absence) the opposing side.
+
+The shuttlecock is a feathered or (in informal matches) plastic projectile which flies differently from the balls used in many other sports.
+In particular, the feathers create much higher drag, causing the shuttlecock to decelerate more rapidly. 
+Shuttlecocks also have a high top speed compared to the balls in other racquet sports. 
+The flight of the shuttlecock gives the sport its distinctive nature.
+
+The game developed in British India from the earlier game of battledore and shuttlecock. 
+European play came to be dominated by Denmark but the game has become very popular in Asia, with recent competitions dominated by China. 
+Since 1992, badminton has been a Summer Olympic sport with four events: men's singles, women's singles, men's doubles, and women's doubles, with mixed doubles added four years later. At high levels of play, the sport demands excellent fitness: players require aerobic stamina, agility, strength, speed, and precision. It is also a technical sport, requiring good motor coordination and the development of sophisticated racquet movements.</pre>
+</br>
+<a href="https://en.wikipedia.org/wiki/Badminton" target="_blank">click here to know further information about BADMINTON!</a>
+			</div>
+		</div>
+	</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</body>
+</html>
